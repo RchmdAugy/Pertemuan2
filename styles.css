@@ -1,0 +1,36 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background: url('https://www.adira.co.id/img/frontend/news/thumb_10rekomendasiwisatapantaiterbaikdiindonesiajpg.jpg') no-repeat center center/cover; /* Menggunakan gambar sebagai latar */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Gaya untuk judul */
+.title {
+    color: gray;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 2px 4px white;
+}
+
+/* Gaya untuk paragraf */
+.description {
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}

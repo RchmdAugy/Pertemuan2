@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Online</title>
+</head>
+
+<style>
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+</style>
+
+<div class="container">
+<body>
+    <div style="text-align: center;"><h2>Formulir Pendaftaran Online</h2></div>
+    <hr>
+ 
+    <form>
+        <div style="padding: 10px;">
+        <label for="program-kuliah">Jurusan</label>
+        <select id="program-kuliah" name="program-kuliah">
+            <option value="" disabled selected>Pilih Jurusan</option>
+            <option value="TI">Teknologi Informasi dan Komputer</option>
+            <option value="Keperawatan">Keperawatan</option>
+            <option value="Pertanian">Pertanian</option>
+            <option value="TeknikMesin">Teknik Mesin</option>
+        </select><br><br>
+
+        <label for="program">Program</label>
+        <select id="program" name="program">
+            <option value="" disabled selected>Pilih Program Studi</option>
+            <option value="D3_SI">D3 Sistem Informasi</option>
+            <option value="D4_TRPL">D4 TRPL</option>
+            <option value="D3_Agroindustri">D3 Agroindustri</option>
+            <option value="D4_TPTP">D4 TPTP</option>
+            <option value="D3_TM">D3 Teknik Mesin</option>
+            <option value="D4_TRM">D4 TRM</option>
+            <option value="D3_Keperawatan">D3 Keperawatan</option>
+        </select>
+        </div>
+        <hr>
+        <div style="text-align: center;"><h2>Biodata</h2></div>
+ 
+        <label for="nama-lengkap">Nama Lengkap</label>
+        <input type="text" id="nama-lengkap" name="nama-lengkap" placeholder="Nama lengkap disini..."><br><br>
+
+        <label for="jenis-kelamin">Jenis Kelamin</label>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+ 
+        <label for="tempat-lahir">Tempat Lahir</label>
+        <input type="text" id="tempat-lahir" name="tempat-lahir" placeholder="Tulis tempat lahir disini..."><br><br>
+ 
+        <label for="tanggal-lahir">Tanggal Lahir</label>
+        <input type="date" id="tanggal-lahir" name="tanggal-lahir"><br><br>
+ 
+        <label for="agama">Agama</label>
+        <select id="agama" name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Budha">Budha</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br><br>
+ 
+        <label for="sekolah">Sekolah</label>
+        <select id="sekolah" name="sekolah">
+            <option value="">Pilih Sekolah</option>
+        </select><br><br>
+        <div>
+            <button type="submit">Simpan</button>
+            <button type="button"><a href="index.html">Kembali</a></button><br><br>
+        </div>
+        
+    </form>
+ 
+</body>
+</div>
+ 
+</html>
